@@ -1,0 +1,6 @@
+import model --modelname HAHM_MG5model_v3/HAHM_variableMW_v3_UFO
+define hs1 = hs
+define hs2 = hs
+generate p p > h > hs1 hs2, hs1 > a a, hs2 > b b~
+add process p p > h > hs1 hs2 j, hs1 > a a, hs2 > b b~
+output hToaaTo2gamma2b_ma35GeV_MLM_4f_max1j
