@@ -38,7 +38,7 @@ ProductionFilterSequence = cms.Sequence(generator)
 """
 
 masses = [12, 15, 20, 25, 30, 35, 40, 45, 50, 55, 60, 65, 70]
-base_path = "/eos/user/b/bbapi/genproductions/bin/MadGraph5_aMCatNLO/gridpack_Wh_M125_ToAA_Tobbgg"
+base_path = "/eos/user/b/bbapi/genproductions/bin/MadGraph5_aMCatNLO/GridPacks/gridpack_Wh_M125_ToAA_Tobbgg"
 
 for m in masses:
     gridpack = f"{base_path}/Wh_M125_ToAA_{m}_Tobbgg_el9_amd64_gcc11_CMSSW_13_2_9_tarball.tar.xz"
